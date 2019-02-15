@@ -1,0 +1,226 @@
+/* Pages
+---------------------------------------- */
+.page-index,
+.page-plain {
+	padding:50px 80px;
+	}
+
+/* Page Plain
+---------------------------------------- */
+.page-plain {
+	margin:auto;
+	max-width:1200px;
+	}
+
+/* Page Index
+---------------------------------------- */
+.page-index {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	overflow:hidden;
+	}
+
+/* Header Index
+---------------------------------------- */
+.page-index .header {
+	position:absolute;
+	z-index:1;
+	outline:none;
+	}
+	.page-index .header .path {
+		margin:0;
+		}
+	.page-index .header .tagline {
+		position:absolute;
+		z-index:-1;
+		visibility:hidden;
+		margin:-6px 0 0 -30px;
+		padding:25px 30px;
+		width:480px;
+		border-radius:10px;
+		background:rgba(0, 0, 0, 0.3);
+		opacity:0;
+		-webkit-transition:opacity 0.5s;
+		-moz-transition:opacity 0.5s;
+		-ms-transition:opacity 0.5s;
+		-o-transition:opacity 0.5s;
+		transition:opacity 0.5s;
+		}
+
+/* Active */
+.page-index-active .header .path h1 {
+	border-color:#1FA5EE;
+	}
+.page-index-active .header .tagline {
+	visibility:visible;
+	opacity:1;
+	}
+
+/* Header Plain
+---------------------------------------- */
+.page-plain .header {
+	max-width:none;
+	}
+	.page-plain .header:before {
+		top:-50px;
+		left:0;
+		background-color:rgba(0, 0, 0, 0.7);
+		background-size:auto;
+		}
+	.page-plain .header .path p span {
+		display:inline;
+		}
+
+/* Navigation
+---------------------------------------- */
+.navigation {
+	position:absolute;
+	top:-100%;
+	bottom:-100%;
+	left:50%;
+	margin:100px 0 0 -200px;
+	max-width:none;
+	width:480px;
+	background:rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow:0 0 0 12px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow:0 0 0 12px rgba(0, 0, 0, 0.1);
+	box-shadow:0 0 0 12px rgba(0, 0, 0, 0.1);
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	transform:rotate(45deg);
+	-webkit-transition:
+		margin-left 0.5s linear,
+		opacity 0.5s linear;
+	-moz-transition:
+		margin-left 0.5s linear,
+		opacity 0.5s linear;
+	-ms-transition:
+		margin-left 0.5s linear,
+		opacity 0.5s linear;
+	-o-transition:
+		margin-left 0.5s linear,
+		opacity 0.5s linear;
+	transition:
+		margin-left 0.5s linear,
+		opacity 0.5s linear;
+	}
+	.navigation ul {
+		position:absolute;
+		top:50%;
+		margin:-370px 0 0;
+		width:480px;
+		height:800px;
+		border-radius:0;
+		-webkit-box-shadow:none;
+		-moz-box-shadow:none;
+		box-shadow:none;
+		}
+		.navigation li a {
+			position:absolute;
+			width:80px;
+			text-indent:24px;
+			direction:ltr;
+			}
+		.navigation li:first-child a,
+		.navigation li:last-child a {
+			border-radius:0;
+			}
+
+/* Active */
+.page-index-active .navigation {
+	margin-left:80px;
+	opacity:0.2;
+	}
+
+/* Items */
+.navigation .canvas a {
+	top:160px;
+	left:80px;
+	}
+.navigation .css3 a {
+	top:480px;
+	left:240px;
+	}
+.navigation .touch a {
+	top:240px;
+	left:160px;
+	}
+.navigation .getusermedia a {
+	top:320px;
+	left:240px;
+	}
+.navigation .audio-video a {
+	top:400px;
+	left:80px;
+	}
+.navigation .svg a {
+	top:560px;
+	left:80px;
+	}
+.navigation .webgl a {
+	top:400px;
+	left:160px;
+	}
+
+/* -90deg */
+.navigation .touch a,
+.navigation .canvas a,
+.navigation .css3 a,
+.navigation .svg a,
+.navigation .webgl a {
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	transform:rotate(-90deg);
+	}
+
+/* RTL */
+.navigation .css3 a,
+.navigation .audio-video a,
+.navigation .svg a,
+.navigation .webgl a {
+	direction:rtl;
+	}
+
+/* Demos
+---------------------------------------- */
+.demos {
+	max-width:none;
+	text-align:justify;
+	}
+	.demos li {
+		display:inline-block;
+		width:30%;
+		vertical-align:top;
+		text-align:left;
+		}
+
+@media only screen and (max-width:1024px) {
+	.demos li {
+		width:46%;
+		}
+	}
+
+/* Footer Index
+---------------------------------------- */
+.page-index .footer {
+	position:absolute;
+	bottom:51px;
+	right:75px;
+	-webkit-transition:opacity 0.5s linear;
+	-moz-transition:opacity 0.5s linear;
+	-ms-transition:opacity 0.5s linear;
+	-o-transition:opacity 0.5s linear;
+	transition:opacity 0.5s linear;
+	}
+
+/* Active */
+.page-index-active .footer {
+	opacity:0.2;
+	}

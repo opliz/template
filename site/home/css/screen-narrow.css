@@ -1,0 +1,55 @@
+/* Pages
+---------------------------------------- */
+.page-index {
+	padding:25px 0 33px;
+	}
+.page-plain {
+	padding:50px 0 40px;
+	}
+
+/* Header
+---------------------------------------- */
+.header {
+	padding:0 35px;
+	margin:0 0 38px;
+	}
+	.header .path {
+		margin:0 0 29px;
+		}
+
+/* Header Plain
+---------------------------------------- */
+.page-plain .header:before {
+	top:-50px;
+	}
+
+/* Navigation
+---------------------------------------- */
+.navigation {
+	margin:0 auto 28px;
+	}
+
+/* Demos
+---------------------------------------- */
+.demos h2 {
+	padding:0 20px;
+	}
+
+@media only screen and (max-width:480px) {
+	.navigation ul,
+	.navigation li:first-child a,
+	.navigation li:last-child a {
+		-webkit-border-radius:0;
+		-moz-border-radius:0;
+		border-radius:0;
+		}
+	}
+
+@media only screen and (max-width:320px) {
+	.header .path {
+		font-size:40px;
+		}
+	.navigation {
+		font-size:40px;
+		}
+	}

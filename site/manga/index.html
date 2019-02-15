@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Title Tag from mas-sugeng -->
+	<title>Manga - Blogspot Template Responsive</title>
+	<!-- Meta Default -->
+	<meta charset='UTF-8'/>
+	<meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
+	<meta content='text/html;charset=UTF-8' http-equiv='Content-Type'/>
+	<meta content='index, follow' name='robots'/>
+	<meta content='general' name='rating'/>
+	<meta content='id' name='geo.country'/>
+	<meta content='Indonesia' name='geo.placename'/>
+	<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/desktop.css">
+	<link rel="stylesheet" type="text/css" href="css/phone.css">
+	<script src='js/jquery.min.js'></script>
+	<script src="js/site/labelthumbs.js"></script>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+<body class='loading'>
+	<div id='outer-wrapper'>
+		<div class='mfmenu' style='display:none;'>
+			<form action='/search' class='search-form'>
+				<input class='search-input' name='q' onblur='if (this.value == "") {this.value = "Find Anime...";}' onfocus='if (this.value == "Find Anime...") {this.value = ""}' type='text' value='Find Anime...'/><input class='search-submit' type='submit' value='GO'/>
+			</form>
+			<span class='mfrmenu'>
+				<select class='genrebox' onchange='document.location.href=this.options[this.selectedIndex].value;'>
+					<option value=''>Genres :</option><option value='/search/label/Action/'>Action</option><option value='/search/label/Adventure/'>Adventure</option>
+					<option value='/search/label/Comedy/'>Comedy</option><option value='/search/label/Demons/'>Demons</option><option value='/search/label/Drama/'>Drama</option><option value='/search/label/Ecchi/'>Ecchi</option>
+					<option value='/search/label/Fantasy/'>Fantasy</option><option value='/search/label/Game/'>Game</option>
+					<option value='/search/label/Harem/'>Harem</option><option value='/search/label/Historical/'>Historical</option>
+					<option value='/search/label/Horror/'>Horror</option><option value='/search/label/Kids/'>Kids</option><option value='/search/label/Magic/'>Magic</option>
+					<option value='/search/label/Martial Arts/'>Martial Arts</option>
+					<option value='/search/label/Mecha/'>Mecha</option><option value='/search/label/Military/'>Military</option>
+					<option value='/search/label/Music/'>Music</option><option value='/search/label/Mystery/'>Mystery</option>
+					<option value='/search/label/Parody/'>Parody</option><option value='/search/label/Police/'>Police</option><option value='/search/label/Psychological/'>Psychological</option><option value='/search/label/Romance/'>Romance</option><option value='/search/label/Samurai/'>Samurai</option>
+					<option value='/search/label/School/'>School</option><option value='/search/label/Sci-Fi/'>Sci-Fi</option><option value='/search/label/Seinen/'>Seinen</option><option value='/search/label/Shoujo/'>Shoujo</option><option value='/search/label/Shoujo Ai/'>Shoujo Ai</option><option value='/search/label/Shounen/'>Shounen</option><option value='/search/label/Shounen Ai/'>Shounen Ai</option><option value='/search/label/Slice of Life/'>Slice of Life</option>
+					<option value='/search/label/Space/'>Space</option><option value='/search/label/Sports/'>Sports</option>
+					<option value='/search/label/Super Power/'>Super Power</option><option value='/search/label/Supernatural/'>Supernatural</option><option value='/search/label/Thriller/'>Thriller</option>
+				</select>
+				<span class='ranpost'><a onclick='feelingLucky();' title='Feeling Lucky'><i class='fontawesome-random'></i></a></span>
+			</span>
+			<span class='clear'></span>
+		</div>
+		<header id='header'>
+			<div class='header section' id='header_widget'>
+				<div class='widget Header' data-version='1' id='Header1'>
+					<div id='header-inner'>
+						<h1>
+							<a href='http://mange-bluewebvn.blogspot.com/' style='display: block'>
+								<img alt='Manga - Blogspot Template Responsive' height='200px; ' id='Header1_headerimg' src='img/site/bg_header.png' style='display: block' title='Manga - Blogspot Template Responsive' width='975px; '/>
+							</a>
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div class='clear'></div>
+		</header>
+		<nav id='nav'>
+			<ul class='fnav' id='fnav'>
+				<li><a class='home' href='index.html'><span class='fontawesome-home'></span></a></li>
+				<li><a href='/p/calendar.html' title='Staff'>Calendar</a></li>
+				<li><a href='#' title='Anime'>Anime <span class='fontawesome-sort-down idrop'></span></a>
+					<ul class='dropdown'>
+						<li><a href='/search/label/Completed' title='Completed'>Completed</a></li>
+						<li><a href='/search/label/Ongoing' title='Ongoing'>Ongoing</a></li>
+						<li><a href='/search/label/PV' title='MV/PV'>MV/PV</a></li>
+						<li><a href='/search/label/OVA' title='Ova/Special'>OVA/SPECIAL</a></li>
+					</ul>
+				</li>
+				<li><a href='/p/staff.html' title='Staff'>Staff</a></li>
+				<li><a href='/p/recruitment.html' title='Recruitment'>Recruitment</a></li>
+				<li><a href='/p/irc.html' title='IRC'>IRC</a></li>
+				<li><a href='/p/faq.html' title='FAQ'>FAQ</a></li>
+				<span class='clear'></span>
+			</ul>
+			<span class='fmenu'>
+				<select class='genrebox' onchange='document.location.href=this.options[this.selectedIndex].value;'>
+					<option value=''>Genres :</option>
+					<option value='/search/label/Action/'>Action</option>
+					<option value='/search/label/Adventure/'>Adventure</option>
+					<option value='/search/label/Comedy/'>Comedy</option>
+					<option value='/search/label/Demons/'>Demons</option>
+					<option value='/search/label/Drama/'>Drama</option>
+					<option value='/search/label/Ecchi/'>Ecchi</option>
+					<option value='/search/label/Fantasy/'>Fantasy</option>
+					<option value='/search/label/Game/'>Game</option>
+					<option value='/search/label/Harem/'>Harem</option>
+					<option value='/search/label/Historical/'>Historical</option>
+					<option value='/search/label/Horror/'>Horror</option>
+					<option value='/search/label/Kids/'>Kids</option>
+					<option value='/search/label/Magic/'>Magic</option>
+					<option value='/search/label/Martial Arts/'>Martial Arts</option>
+					<option value='/search/label/Mecha/'>Mecha</option>
+					<option value='/search/label/Military/'>Military</option>
+					<option value='/search/label/Music/'>Music</option>
+					<option value='/search/label/Mystery/'>Mystery</option>
+					<option value='/search/label/Parody/'>Parody</option>
+					<option value='/search/label/Police/'>Police</option>
+					<option value='/search/label/Psychological/'>Psychological</option>
+					<option value='/search/label/Romance/'>Romance</option>
+					<option value='/search/label/Samurai/'>Samurai</option>
+					<option value='/search/label/School/'>School</option>
+					<option value='/search/label/Sci-Fi/'>Sci-Fi</option>
+					<option value='/search/label/Seinen/'>Seinen</option>
+					<option value='/search/label/Shoujo/'>Shoujo</option>
+					<option value='/search/label/Shoujo Ai/'>Shoujo Ai</option>
+					<option value='/search/label/Shounen/'>Shounen</option>
+					<option value='/search/label/Shounen Ai/'>Shounen Ai</option>
+					<option value='/search/label/Slice of Life/'>Slice of Life</option>
+					<option value='/search/label/Space/'>Space</option>
+					<option value='/search/label/Sports/'>Sports</option>
+					<option value='/search/label/Super Power/'>Super Power</option>
+					<option value='/search/label/Supernatural/'>Supernatural</option>
+					<option value='/search/label/Thriller/'>Thriller</option>
+				</select>
+				<form action='/search' class='search-form'>
+					<input class='search-input' name='q' onblur='if (this.value == "") {this.value = "Find Anime...";}' onfocus='if (this.value == "Find Anime...") {this.value = ""}' type='text' value='Find Anime...'/><input class='search-submit' type='submit' value='GO'/>
+				</form>
+				<span class='ranpost'><a onclick='feelingLucky();' title='Feeling Lucky'><i class='fontawesome-random'></i></a></span>
+				<span class='clear'></span>
+			</span>
+			<span class='clear'></span>
+		</nav>
+	<div id='content-wrapper'>
+		<!-- <div id="contentanime">
+			<ul class="rdpost">
+				<li>
+					<a class="rdthumbs" href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">
+						<img class="rdthumb" title="5 Centimeters Persecond" alt="5 Centimeters Persecond" src="http://4.bp.blogspot.com/-6NSGG6-FQMk/VJKLlE_-YtI/AAAAAAAADJA/IPZ8c8K2qOM/w115-h160-c/2483.jpg">
+					</a>
+					<strong class="rdtitle"><a href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">5 Centimeters Persecond</a></strong>
+					<p class="rdsnippet"> English: Steins;GateJapanese: シュタインズ ゲートType: TVEpisodes: 24Status: Finished AiringAired: Apr 6, 2011 to Sep 14, 2011Producers: Frontier Works,…</p>
+				</li>
+				<li>
+					<a class="rdthumbs" href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">
+						<img class="rdthumb" title="5 Centimeters Persecond" alt="5 Centimeters Persecond" src="http://4.bp.blogspot.com/-6NSGG6-FQMk/VJKLlE_-YtI/AAAAAAAADJA/IPZ8c8K2qOM/w115-h160-c/2483.jpg">
+					</a>
+					<strong class="rdtitle"><a href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">5 Centimeters Persecond</a></strong>
+					<p class="rdsnippet"> English: Steins;GateJapanese: シュタインズ ゲートType: TVEpisodes: 24Status: Finished AiringAired: Apr 6, 2011 to Sep 14, 2011Producers: Frontier Works,…</p>
+				</li>
+				<li>
+					<a class="rdthumbs" href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">
+						<img class="rdthumb" title="5 Centimeters Persecond" alt="5 Centimeters Persecond" src="http://4.bp.blogspot.com/-6NSGG6-FQMk/VJKLlE_-YtI/AAAAAAAADJA/IPZ8c8K2qOM/w115-h160-c/2483.jpg">
+					</a>
+					<strong class="rdtitle"><a href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">5 Centimeters Persecond</a></strong>
+					<p class="rdsnippet"> English: Steins;GateJapanese: シュタインズ ゲートType: TVEpisodes: 24Status: Finished AiringAired: Apr 6, 2011 to Sep 14, 2011Producers: Frontier Works,…</p>
+				</li>
+				<li>
+					<a class="rdthumbs" href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">
+						<img class="rdthumb" title="5 Centimeters Persecond" alt="5 Centimeters Persecond" src="http://4.bp.blogspot.com/-6NSGG6-FQMk/VJKLlE_-YtI/AAAAAAAADJA/IPZ8c8K2qOM/w115-h160-c/2483.jpg">
+					</a>
+					<strong class="rdtitle"><a href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">5 Centimeters Persecond</a></strong>
+					<p class="rdsnippet"> English: Steins;GateJapanese: シュタインズ ゲートType: TVEpisodes: 24Status: Finished AiringAired: Apr 6, 2011 to Sep 14, 2011Producers: Frontier Works,…</p>
+				</li>
+				<li>
+					<a class="rdthumbs" href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">
+						<img class="rdthumb" title="5 Centimeters Persecond" alt="5 Centimeters Persecond" src="http://4.bp.blogspot.com/-6NSGG6-FQMk/VJKLlE_-YtI/AAAAAAAADJA/IPZ8c8K2qOM/w115-h160-c/2483.jpg">
+					</a>
+					<strong class="rdtitle"><a href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">5 Centimeters Persecond</a></strong>
+					<p class="rdsnippet"> English: Steins;GateJapanese: シュタインズ ゲートType: TVEpisodes: 24Status: Finished AiringAired: Apr 6, 2011 to Sep 14, 2011Producers: Frontier Works,…</p>
+				</li>
+				<li>
+					<a class="rdthumbs" href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">
+						<img class="rdthumb" title="5 Centimeters Persecond" alt="5 Centimeters Persecond" src="http://4.bp.blogspot.com/-6NSGG6-FQMk/VJKLlE_-YtI/AAAAAAAADJA/IPZ8c8K2qOM/w115-h160-c/2483.jpg">
+					</a>
+					<strong class="rdtitle"><a href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">5 Centimeters Persecond</a></strong>
+					<p class="rdsnippet"> English: Steins;GateJapanese: シュタインズ ゲートType: TVEpisodes: 24Status: Finished AiringAired: Apr 6, 2011 to Sep 14, 2011Producers: Frontier Works,…</p>
+				</li>
+				<li>
+					<a class="rdthumbs" href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">
+						<img class="rdthumb" title="5 Centimeters Persecond" alt="5 Centimeters Persecond" src="http://4.bp.blogspot.com/-6NSGG6-FQMk/VJKLlE_-YtI/AAAAAAAADJA/IPZ8c8K2qOM/w115-h160-c/2483.jpg">
+					</a>
+					<strong class="rdtitle"><a href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">5 Centimeters Persecond</a></strong>
+					<p class="rdsnippet"> English: Steins;GateJapanese: シュタインズ ゲートType: TVEpisodes: 24Status: Finished AiringAired: Apr 6, 2011 to Sep 14, 2011Producers: Frontier Works,…</p>
+				</li>
+				<li>
+					<a class="rdthumbs" href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">
+						<img class="rdthumb" title="5 Centimeters Persecond" alt="5 Centimeters Persecond" src="http://4.bp.blogspot.com/-6NSGG6-FQMk/VJKLlE_-YtI/AAAAAAAADJA/IPZ8c8K2qOM/w115-h160-c/2483.jpg">
+					</a>
+					<strong class="rdtitle"><a href="http://mange-bluewebvn.blogspot.com/2014/12/5-centimeters-persecond.html" title="5 Centimeters Persecond">5 Centimeters Persecond</a></strong>
+					<p class="rdsnippet"> English: Steins;GateJapanese: シュタインズ ゲートType: TVEpisodes: 24Status: Finished AiringAired: Apr 6, 2011 to Sep 14, 2011Producers: Frontier Works,…</p>
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</div> -->
+		<div id="content-side">
+			<div class="cside section" id="cside">
+				<div class="widget HTML" id="HTML1">
+					<h2 class="title">
+						<span class="fontawesome-reorder"></span>
+							Latest Anime
+					</h2>
+					<div class="widget-content">
+						<ul class="lst_wrap">
+							<li class="clearfix">
+								<a class="lst_title" href="http://mange-bluewebvn.blogspot.com/2000/11/steinsgate.html" target="_top">Steins;Gate</a>
+								<br>
+								<span class="clear"></span>
+							</li>
+							<li class="clearfix">
+								<a class="lst_title" href="http://mange-bluewebvn.blogspot.com/2000/11/steinsgate.html" target="_top">Steins;Gate</a>
+								<br>
+								<span class="clear"></span>
+							</li>
+							<li class="clearfix">
+								<a class="lst_title" href="http://mange-bluewebvn.blogspot.com/2000/11/steinsgate.html" target="_top">Steins;Gate</a>
+								<br>
+								<span class="clear"></span>
+							</li>
+							<li class="clearfix">
+								<a class="lst_title" href="http://mange-bluewebvn.blogspot.com/2000/11/steinsgate.html" target="_top">Steins;Gate</a>
+								<br>
+								<span class="clear"></span>
+							</li>
+							<li class="clearfix">
+								<a class="lst_title" href="http://mange-bluewebvn.blogspot.com/2000/11/steinsgate.html" target="_top">Steins;Gate</a>
+								<br>
+								<span class="clear"></span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="widget HTML" id="HTML2">
+					<h2 class="title">
+						<span class="fontawesome-reorder"></span>
+							Latest Anime
+					</h2>
+					<div class="widget-content">
+						<ul class="lst_wrap">
+							<li class="clearfix">
+								<a class="lst_title" href="http://mange-bluewebvn.blogspot.com/2000/11/steinsgate.html" target="_top">Steins;Gate</a>
+								<br>
+								<span class="clear"></span>
+							</li>
+							<li class="clearfix">
+								<a class="lst_title" href="http://mange-bluewebvn.blogspot.com/2000/11/steinsgate.html" target="_top">Steins;Gate</a>
+								<br>
+								<span class="clear"></span>
+							</li>
+							<li class="clearfix">
+								<a class="lst_title" href="http://mange-bluewebvn.blogspot.com/2000/11/steinsgate.html" target="_top">Steins;Gate</a>
+								<br>
+								<span class="clear"></span>
+							</li>
+							<li class="clearfix">
+								<a class="lst_title" href="http://mange-bluewebvn.blogspot.com/2000/11/steinsgate.html" target="_top">Steins;Gate</a>
+								<br>
+								<span class="clear"></span>
+							</li>
+							<li class="clearfix">
+								<a class="lst_title" href="http://mange-bluewebvn.blogspot.com/2000/11/steinsgate.html" target="_top">Steins;Gate</a>
+								<br>
+								<span class="clear"></span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="content-hwrap">
+			<div class="hwrap section">
+				<div class="widget HTML">
+					<h2 class="title">News Anime Episodes
+						<span class="fontawesome-home"></span>
+					</h2>
+					<div class="widget-content">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+						<img src="http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image/*&url=https://lh3.googleusercontent.com/-tz0u4RPGp9M/V2lrnU49zSI/AAAAAAAAwHU/L5ICF3I02HEfwWgrxWwYiBJ-H4iteVmhwCLcB/s1600/store_file_download%25280%2529.jpg" style="max-width=600px;width: 100%;height:auto;">
+						<img src="http://images2-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&gadget=a&no_expand=1&resize_h=0&rewriteMime=image/*&url=https://lh3.googleusercontent.com/-rdfyDkDlEyc/V2lrnbM8fAI/AAAAAAAAwHM/F2fMtNUQ2Oc7HXmeHpbVjHUkxbwWrvElACLcB/s1600/store_file_download%25281%2529.jpg" style="max-width=600px;width: 100%;height:auto;">
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class='clear'></div>
+	</div><!-- END CONTENT -->
+
+</div><!-- END OUTER -->
+</body>
+</html>
